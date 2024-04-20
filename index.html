@@ -1,20 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
+<div id="poker_clock" class="clearfix">
+    <h1>~ Carey's Casino ~</h1>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <div id="Poker clock" class="clearfix">
-        <h1>Odds casin o</h1>
-        <span>Play|Pause</span>
-        <a href="#" title="playpause" class="play">
+    <div id="poker_play_pause">
+        <span>Play/Pause</span>
+        <a href="#" title="Play/Pause" class="play">
             <span></span>
         </a>
     </div>
-</body>
 
-</html>
+    <div id="poker_next_round">
+        <span>Next Round</span>
+        <a href="#" title="Next Round">$</a>
+    </div>
+
+    <h2 id="round">Round 1</h2>
+    <div class="clock">20:00</div>
+
+    <div id="poker_blinds">
+        <div class="blinds">
+            <span class="small-blind">5</span>
+            <span class="separator">/</span>
+            <span class="big-blind">10</span>
+        </div>
+        <span>Blinds</span>
+    </div>
+
+    <a href="#" class="reset">Reset</a>
+
+    <audio id="alarm" controls="controls">
+        <source src="http://soundjax.com/reddo/73797%5Ealarmclock.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+    </audio>
+</div>
