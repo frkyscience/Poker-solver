@@ -132,6 +132,12 @@ var Poker = (function () {
 
                 this.playAlarm();
 
+
+
+                // git push 
+                //git add 
+                //  git push 
+                
                 this.startClock();
 
                 // update play/pause button

@@ -1,4 +1,4 @@
-# Poker Klok Documentatie 🃏⏰
+# Poker Klok Documentatie 🃏⏰ / WIP Solver
 
 Welkom bij de documentatie van de Poker Klok! Deze eenvoudige pokerklok helpt je bij het organiseren van jouw pokerspellen.
 
