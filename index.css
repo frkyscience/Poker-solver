@@ -1,6 +1,6 @@
 body
 {
-  background: #2c5a39;
+  background: #104c21;
 }
 
 #poker_clock h1
@@ -55,8 +55,8 @@ body
 
 #poker_play_pause a
 {
-  background: red;
-  border: 10px dotted #fff;
+  background: rgb(0, 0, 0);
+  border: 10px dotted #a99e11;
   border-radius: 50px;
 }
 
@@ -99,8 +99,8 @@ body
 
 #poker_next_round a
 {
-  background: #333;
-  border: 10px dotted #fff;
+  background: #ad7101;
+  border: 10px dotted #000000;
   border-radius: 50px;
 }
 
