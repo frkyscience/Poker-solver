@@ -61,22 +61,18 @@ var Poker = (function () {
             $('#alarm')[0].play();
         },
         reset: function () {
-            // reset timer
             this.resetTimer();
 
             this.stopClock();
 
             this.updateClock(timer);
 
-            // reset play/pause button
             this.updatePlayPauseButton();
 
-            // reset round
             round = 1;
 
             this.updateRound(round);
 
-            // increase blinds
             this.updateBlinds(round);
         },
         resetTimer: function () {
@@ -92,22 +88,18 @@ var Poker = (function () {
             }, 1000);
         },
         startNextRound: function () {
-            // reset timer
             this.resetTimer();
 
             this.stopClock();
 
             this.updateClock(timer);
 
-            // reset play/pause button
             this.updatePlayPauseButton();
 
-            // increase round
             round += 1;
 
             this.updateRound(round);
 
-            // increase blinds
             this.updateBlinds(round);
         },
         stopClock: function () {
@@ -131,16 +123,9 @@ var Poker = (function () {
                 this.startNextRound();
 
                 this.playAlarm();
-
-
-
-                // git push 
-                //git add 
-                //  git push 
                 
                 this.startClock();
 
-                // update play/pause button
                 this.updatePlayPauseButton();
             }
         },
@@ -169,7 +154,6 @@ $(document).ready(function () {
             Poker.stopClock();
         }
 
-        // update play/pause button
         Poker.updatePlayPauseButton();
     });
 
@@ -184,7 +168,6 @@ $(document).ready(function () {
             Poker.stopClock();
         }
 
-        // update play/pause button
         Poker.updatePlayPauseButton();
     });
 
