@@ -1,2 +1,3 @@
-Fix tensor flow 
-add extra 
+Add extra ui options
+
+make it able to change blind levels and potentially save.
