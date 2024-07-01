@@ -2,8 +2,9 @@
 
 Welkom bij de documentatie van de Poker Klok! Deze eenvoudige pokerklok helpt je bij het organiseren van jouw pokerspellen.
 
-## Inhoudsopgave
+![Schermafbeelding 2024-07-01 145535](https://github.com/frkyscience/Poker_clock/assets/84499820/c7a1175d-0c19-4b51-83ce-847d6b7c065d)
 
+## Inhoudsopgave
 1. [Installatie](#installatie)
 2. [Gebruik](#gebruik)
 3. [Bijdragen](#bijdragen)
